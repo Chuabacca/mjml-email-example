@@ -1,0 +1,95 @@
+<mj-body>
+
+<!-- Header -->
+  <mj-section background-url="http://email.assets.dollarshaveclub.com.s3.amazonaws.com/wood-bg/bigcloud-header.jpg"
+              padding="0">
+    <mj-column>
+      <mj-image src="http://email.assets.dollarshaveclub.com.s3.amazonaws.com/base/header/crest-white.png"
+                href="<%= root_url %>"
+                width="45"></mj-image>
+    </mj-column>
+  </mj-section>
+
+<!-- Wood -->
+  <mj-section background-url="http://email.assets.dollarshaveclub.com.s3.amazonaws.com/wood-bg/bigcloud.jpg"
+              padding="0">
+    <mj-column>
+      <mj-image src="http://email.assets.dollarshaveclub.com.s3.amazonaws.com/big-cloud-influence/intro-headline-a.png"
+                padding-top="15"
+                width="437"></mj-image>
+      <mj-text align="center"
+               color="#ffffff"
+               font-family="Prumo-Medium,Georgia,Times,serif"
+               font-size="18"
+               line-height="26px"
+               padding-top="10px"
+               padding-left="15%"
+               padding-right="15%">
+               Try Big Cloud — the premium line of Skin Preservation Products by Dollar Shave Club.</mj-text>
+     <mj-image src="http://email.assets.dollarshaveclub.com.s3.amazonaws.com/big-cloud-influence/cta-explore.png"
+               href="<%= big_cloud_intro_url %>"
+               padding-top="20"
+               padding-bottom="20"
+               width="143"></mj-image>
+      <mj-image src="http://email.assets.dollarshaveclub.com.s3.amazonaws.com/big-cloud-influence/diorama.png"
+                href="<%= big_cloud_intro_url %>"
+                padding-top="20"
+                padding-bottom="20"
+                width="490"></mj-image>
+    </mj-column>
+  </mj-section>
+
+<!-- Paper -->
+  <mj-section background-color="#F0EAE7"
+              padding="0">
+    <mj-column padding="0">
+      <mj-text align="center"
+               color="#7D7977"
+               font-family="Avenir-Regular, Helvetica, Arial, sans-serif"
+               font-size="16"
+               line-height="22px"
+               padding-top="30"
+               padding-left="15%"
+               padding-right="15%"
+               width="440">
+               Big Cloud products protect your hands, face, and lips from the harsh daily effects of wind, sun, and time — with no greasy or shiny residue. Your skin has to last a lifetime. Treat&nbsp;it&nbsp;that&nbsp;way.</mj-text>
+      <mj-image src="http://email.assets.dollarshaveclub.com.s3.amazonaws.com/big-cloud-influence/cta-learn.jpg"
+                href="<%= big_cloud_intro_url %>"
+                padding-top="20"
+                padding-bottom="40"
+                width="132"></mj-image>
+      <mj-divider border-color="#DCD7D6"
+                  border-width="1px"
+                  padding="0"></mj-divider>
+    </mj-column>
+  </mj-section>
+
+<!-- Paper 2 -->
+  <mj-section background-color="#F5F0EF"
+              padding="0">
+    <mj-column>
+      <mj-image src="http://email.assets.dollarshaveclub.com.s3.amazonaws.com/big-cloud-influence/intro-headline-b.jpg"
+                padding-top="40"
+                width="298"></mj-image>
+      <mj-text align="center"
+               color="#7D7977"
+               font-family="Avenir-Regular, Helvetica, Arial, sans-serif"
+               font-size="16"
+               line-height="22px"
+               padding-top="10px"
+               padding-left="15%"
+               padding-right="15%">
+               Check out the ways Mother Nature’s harming your skin each day — and what you can do to protect it.</mj-text>
+      <mj-image src="http://email.assets.dollarshaveclub.com.s3.amazonaws.com/big-cloud-influence/video.jpg"
+                href="<%= big_cloud_video_url %>"
+                padding-top="20"
+                padding-bottom="20"
+                width="350"></mj-image>
+      <mj-image src="http://email.assets.dollarshaveclub.com.s3.amazonaws.com/big-cloud-influence/cta-watch.jpg"
+                href="<%= big_cloud_video_url %>"
+                padding-top="20"
+                padding-bottom="40"
+                width="132"></mj-image>
+    </mj-column>
+  </mj-section>
+</mj-body>
